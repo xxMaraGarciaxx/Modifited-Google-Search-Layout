@@ -1,3 +1,131 @@
-*{
-  background: red !important;
+:root{
+ --link-color: #FFB2AB;
+ --link-to-website-color: #C2AFA1;
+}
+
+body{
+  font-family: monospace !important;
+}
+
+/* all links */
+a, a *, .hdtb-mitem.hdtb-msel.hdtb-imb{
+ color:var(--link-color) !important;
+}
+
+/* active tab */
+.hdtb-mitem.hdtb-msel.hdtb-imb{
+ font-weight: bolder;
+}
+
+/* search icon */
+.sbico.z1asCe.MZy1Rb svg{
+ color: #C4DAD5;
+}
+
+/* unneeded blocks */
+.ifM9O, #rhs, .nrgt, .CMLaue.mIKy0c, .mJVYJe, .e2BEn {
+ display: none !important;
+}
+/* heading of news block */
+.e2BEnf{
+ display: none !important;
+}
+/* extra links below blocks */
+.osl{
+ display:  none !important;
+}
+
+/* down arrow next to links */
+.action-menu.ab_ctl{
+ display:  none !important;
+}
+/* video list */
+g-section-with-header {
+ display: none !important;
+}
+
+/* icons for inside google maps preview */
+.ccBEnf svg{
+ display: none !important;
+}
+
+.BFJZOc
+{
+display: none !important;
+}
+
+.bh13Qc
+{
+display: none !important;
+}
+
+.VkpGBb
+{
+display: none !important;
+}
+
+.vk_c
+{
+display: none !important;
+}
+
+/* wrapper for all search results */
+#rso {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-column-gap: 150px;
+}
+
+/* wrapper for block with multiple or more search results */
+.bkWMgd {
+ display: contents;
+}
+
+/* block with multiple search results */
+.srg{
+ display: contents;
+}
+
+/* stock market container */
+.g.knavi.obcontainer.mod{
+ display:  none !important;
+}
+
+/* translate this site text */
+.f .fl{
+ display: none !important;
+}
+
+/* link to search result website */
+.iUh30{
+ color: var(--link-to-website-color)
+}
+
+/* information table for search result */
+.P1usbc{
+ display:  none !important;
+}
+
+/* search navigation for next sites */
+#navcnt table {
+ margin: 22px 10px 20px !important;
+}
+
+
+
+.rg_r{
+display: none !important;
+}
+.DUU6{
+display: none !important;
+}
+
+/* Städtebilderfolge*/
+.klbar{
+ display: none !important;
+}
+
+/* heading */
+#botabar  {
+ dispay: none !important;
 }
